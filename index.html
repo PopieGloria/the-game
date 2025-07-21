@@ -17,15 +17,18 @@
             <div class="current-leader">
                 <h3>Current Leader: <span id="leader-name">None</span></h3>
             </div>
-            <button id="reset-game" class="btn">Reset Game</button>
+            <div class="game-controls">
+                <button id="reset-scores" class="btn warning">Reset Scores</button>
+                <button id="reset-game" class="btn">Reset Game</button>
+            </div>
         </div>
 
         <div class="game-config" id="game-config">
             <h2>Game Configuration</h2>
             <div class="config-options">
                 <div class="config-item">
-                    <label for="team-count">Number of Teams:</label>
-                    <input type="number" id="team-count" min="2" max="8" value="4">
+                    <label>Number of Teams: 4</label>
+                    <p class="config-description">This game is designed for exactly 4 teams.</p>
                 </div>
                 <div class="config-item">
                     <label for="round-count">Number of Rounds:</label>
